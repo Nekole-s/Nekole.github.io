@@ -1,8 +1,31 @@
+/* background color and default font*/
 *{
-    font-family: verdana;
+    font-family: courier;
 }
 body{
     background-color: #8b008b;
 }
+.header{
+    text-align: center;
+    color: #faebd7;
 
+}
 
+/* the sidebar */
+.sidenav{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    background-color: #faebd7;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 10px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+}
