@@ -3,21 +3,25 @@
     font-family: courier;
 }
 body{
-    background-color: #8b008b;
+    background-color: #000000;
 }
 .header{
     text-align: center;
     color: #faebd7;
-
+    padding: 100px;
+}
+.header_image{
+  background-image:url("../images/header_image.png");
+  width: 100%;
+  height: 290px;
 }
 
 /* the sidebar */
 .sidenav{
     height: 100%;
-    width: 20%;
+    width: 8%;
     position: fixed;
     z-index: 1;
-    background-color: #faebd7;
     overflow-x: hidden;
     overflow-y: hidden;
     padding-top: 10px;
@@ -27,5 +31,5 @@ body{
   padding: 8px 8px 8px 8px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #faebd7;
 }
