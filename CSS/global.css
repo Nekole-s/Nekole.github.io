@@ -25,6 +25,7 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
     padding-top: 10px;
+    float: left;
 }
 
 .sidenav a {
@@ -32,4 +33,21 @@ body{
   text-decoration: none;
   font-size: 25px;
   color: #faebd7;
+}
+
+/*style for content*/
+.content{
+float: left;
+width: 77%;
+}
+
+h3{
+color: #faebd7;
+width: auto; margin-left: 16%
+}
+
+p{
+color: #faebd7;
+font-size: 16px;
+width: auto; margin-left: 16%
 }
