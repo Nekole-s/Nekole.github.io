@@ -39,15 +39,14 @@ body{
 .content{
 float: left;
 width: 77%;
+color: #faebd7;
+margin-left: 16%;
 }
 
-h3{
-color: #faebd7;
-width: auto; margin-left: 16%
+.blogsubdomain{
+  float: left;
+  width: 20%;
 }
 
-p{
-color: #faebd7;
-font-size: 16px;
-width: auto; margin-left: 16%
-}
+
+
